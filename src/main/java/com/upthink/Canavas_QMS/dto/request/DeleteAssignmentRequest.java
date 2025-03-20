@@ -1,0 +1,1 @@
+package com.upthink.Canavas_QMS.dto.request;import com.upthink.Canavas_QMS.dto.request.AuthenticatedRequest;public class DeleteAssignmentRequest extends AuthenticatedRequest {    public DeleteAssignmentRequest(TokenValidation id) {        super(id);    }}

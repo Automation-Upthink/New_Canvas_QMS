@@ -1,1 +1,0 @@
-package com.upthink.Canavas_QMS.repository;public class EssayClientRepository {}
