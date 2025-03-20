@@ -1,0 +1,1 @@
+package com.upthink.Canavas_QMS.dto.request;public class FetchDataForClientRequest{    private final int clientId;    public GetDataClientRequest(int clientId) {        this.clientId = clientId;    }    public int getClientId() {        return clientId;    }}
