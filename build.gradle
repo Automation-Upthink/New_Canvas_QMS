@@ -109,7 +109,7 @@ dependencies {
 	// JWT
 	implementation group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '9.41.1'
 	// Auto configure
-	implementation group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '3.3.4'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '3.4.3'
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
