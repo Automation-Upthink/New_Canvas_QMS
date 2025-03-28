@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;public class DeleteClientRequest extends AuthenticatedRequest {    private final int clientRowId;    public DeleteClientRequest(TokenValidation tokenValidationId, int clientRowId) {        super(tokenValidationId);        this.clientRowId = clientRowId;    }    public int getClientRowId() {        return clientRowId;    }}

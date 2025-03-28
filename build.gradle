@@ -13,7 +13,7 @@ tasks.named('bootJar') {
 	archiveBaseName.set('QMS-SNAPSHOT')
 	archiveClassifier.set('')
 	archiveVersion.set('1.0')
-	mainClass.set('com.upthink.Canvas_QMS.CanvasQmsApplication')
+	mainClass.set('com.upthink.qms.CanvasQmsApplication')
 }
 
 
@@ -52,7 +52,7 @@ repositories {
 }
 
 application {
-	mainClass = 'com.upthink.Canvas_QMS.CanvasQmsApplication'
+	mainClass = 'com.upthink.qms.CanvasQmsApplication'
 }
 
 // Disable the default jar task
@@ -104,6 +104,10 @@ dependencies {
 	// Gson
 	implementation 'com.google.code.gson:gson:2.11.0'
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.17.2'
+
+//	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2'
+//	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
 	implementation 'org.jsonschema2pojo:jsonschema2pojo-core:1.1.1'
 	implementation group: 'org.json', name: 'json', version: '20230618'
 	// JWT

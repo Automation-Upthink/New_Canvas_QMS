@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;import com.upthink.qms.model.Assignment;public class CreateAssignmentRequest extends AuthenticatedRequest {    public CreateAssignmentRequest(TokenValidation tokenValidationId, Assignment data) {        super(tokenValidationId);    }}

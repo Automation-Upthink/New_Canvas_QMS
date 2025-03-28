@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;import lombok.Getter;import lombok.Setter;@Getter@Setterpublic class GetAllPersonsRequest extends AuthenticatedRequest {    private TokenValidation tokenValidationId;    public GetAllPersonsRequest(TokenValidation tokenValidationId) {        super(tokenValidationId);        this.tokenValidationId = tokenValidationId;    }}

@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;import com.upthink.qms.model.Client;import lombok.Getter;import lombok.Setter;@Getter@Setterpublic class UpdateClientRequest extends AuthenticatedRequest {    private Client data;    public UpdateClientRequest(TokenValidation tokenValidationId, Client data) {        super(tokenValidationId);        this.data = data;    }}

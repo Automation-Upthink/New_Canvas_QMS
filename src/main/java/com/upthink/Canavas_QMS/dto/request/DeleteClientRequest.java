@@ -1,1 +1,0 @@
-package com.upthink.Canavas_QMS.dto.request;import lombok.AllArgsConstructor;import lombok.Getter;import lombok.NoArgsConstructor;import lombok.Setter;@Getter@Setterpublic class DeleteClientRequest extends AuthenticatedRequest {    public DeleteClientRequest(TokenValidation tokenValidationId) {        super(tokenValidationId);    }}

@@ -1,1 +1,0 @@
-package com.upthink.Canavas_QMS.dto.request;import gson.GsonDTO;public class FetchDataForClientRequest extends GsonDTO {    private final int clientId;    public FetchDataForClientRequest(int clientId) {        this.clientId = clientId;    }    public int getClientId() {        return clientId;    }}

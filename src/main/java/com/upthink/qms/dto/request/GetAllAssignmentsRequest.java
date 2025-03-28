@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;public class GetAllAssignmentsRequest extends AuthenticatedRequest{    public final Integer courseId;    public GetAllAssignmentsRequest(TokenValidation tokenValidationId, Integer courseId) {        super(tokenValidationId);        this.courseId = courseId;    }    public Integer getCourseId() {        return courseId;    }}

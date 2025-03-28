@@ -1,1 +1,0 @@
-package com.upthink.Canavas_QMS.dto.request;import com.upthink.Canavas_QMS.dto.request.AuthenticatedRequest;public class GetAssignmentByIdRequest extends AuthenticatedRequest {    public GetAssignmentByIdRequest(TokenValidation tokenValidationId) {        super(tokenValidationId);    }}

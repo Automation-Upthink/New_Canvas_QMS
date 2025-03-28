@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;public class GetClientByIdRequest extends AuthenticatedRequest {    private final int clientId;    public GetClientByIdRequest(TokenValidation tokenValidationId, int clientId) {        super(tokenValidationId);        this.clientId = clientId;    }    public int getClientId() {        return clientId;    }}

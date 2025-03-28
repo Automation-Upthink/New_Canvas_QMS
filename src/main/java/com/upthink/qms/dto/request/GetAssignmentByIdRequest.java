@@ -1,0 +1,1 @@
+package com.upthink.qms.dto.request;public class GetAssignmentByIdRequest extends AuthenticatedRequest {    public GetAssignmentByIdRequest(TokenValidation tokenValidationId) {        super(tokenValidationId);    }}
